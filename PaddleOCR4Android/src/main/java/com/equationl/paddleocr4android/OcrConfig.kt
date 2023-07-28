@@ -72,40 +72,40 @@ data class OcrConfig(
     var isDrwwTextPositionBox: Boolean = false
 ) {
      // Custom setter for isRunDet property
-    fun setIsRunDet(value: Boolean) {
+    fun setIsRunDetCustom(value: Boolean) {
         isRunDet = value
     }
 
     // Custom setter for isRunCls property
-    fun setIsRunCls(value: Boolean) {
+    fun setIsRunClsCustom(value: Boolean) {
         isRunCls = value
     }
 
     // Custom setter for isRunRec property
-    fun setIsRunRec(value: Boolean) {
+    fun setIsRunRecCustom(value: Boolean) {
         isRunRec = value
     }
 
     // Custom setter for isUseOpencl property
-    fun setIsUseOpencl(value: Boolean) {
+    fun setIsUseOpenclCustom(value: Boolean) {
         isUseOpencl = value
     }
 
     // Custom setter for isDrawTextPositionBox property
-    fun setIsDrawTextPositionBox(value: Boolean) {
+    fun setIsDrawTextPositionBoxCustom(value: Boolean) {
         isDrwwTextPositionBox = value
     }
-    fun setDetModelFilename(filename: String) {
+    fun setDetModelFilenameCustom(filename: String) {
         detModelFilename = filename
     }
 
     // Custom setter for recModelFilename property
-    fun setRecModelFilename(filename: String) {
+    fun setRecModelFilenameCustom(filename: String) {
         recModelFilename = filename
     }
 
     // Custom setter for clsModelFilename property
-    fun setClsModelFilename(filename: String) {
+    fun setClsModelFilenameCustom(filename: String) {
         clsModelFilename = filename
     }    
 }

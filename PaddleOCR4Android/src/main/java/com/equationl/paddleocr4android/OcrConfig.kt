@@ -69,7 +69,7 @@ data class OcrConfig(
      *
      * 否则，[OcrResult.imgWithBox] 将会直接返回输入 Bitmap
      * */
-    var isDrawTextPositionBox: Boolean = false
+    var isDrwwTextPositionBox: Boolean = false
 ) {
      // Custom setter for isRunDet property
     fun setIsRunDet(value: Boolean) {
@@ -93,7 +93,7 @@ data class OcrConfig(
 
     // Custom setter for isDrawTextPositionBox property
     fun setIsDrawTextPositionBox(value: Boolean) {
-        isDrawTextPositionBox = value
+        isDrwwTextPositionBox = value
     }
     fun setDetModelFilename(filename: String) {
         detModelFilename = filename

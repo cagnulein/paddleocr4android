@@ -70,7 +70,45 @@ data class OcrConfig(
      * 否则，[OcrResult.imgWithBox] 将会直接返回输入 Bitmap
      * */
     var isDrwwTextPositionBox: Boolean = false
-)
+) {
+     // Custom setter for isRunDet property
+    fun setIsRunDet(value: Boolean) {
+        isRunDet = value
+    }
+
+    // Custom setter for isRunCls property
+    fun setIsRunCls(value: Boolean) {
+        isRunCls = value
+    }
+
+    // Custom setter for isRunRec property
+    fun setIsRunRec(value: Boolean) {
+        isRunRec = value
+    }
+
+    // Custom setter for isUseOpencl property
+    fun setIsUseOpencl(value: Boolean) {
+        isUseOpencl = value
+    }
+
+    // Custom setter for isDrawTextPositionBox property
+    fun setIsDrawTextPositionBox(value: Boolean) {
+        isDrawTextPositionBox = value
+    }
+    fun setDetModelFilename(filename: String) {
+        detModelFilename = filename
+    }
+
+    // Custom setter for recModelFilename property
+    fun setRecModelFilename(filename: String) {
+        recModelFilename = filename
+    }
+
+    // Custom setter for clsModelFilename property
+    fun setClsModelFilename(filename: String) {
+        clsModelFilename = filename
+    }    
+}
 
 enum class CpuPowerMode {
     /**

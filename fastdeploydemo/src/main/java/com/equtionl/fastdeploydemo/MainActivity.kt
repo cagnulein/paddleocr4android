@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
             val config = OcrConfig()
             //config.labelPath = null
 
-            config.modelPath = "models" // 不使用 "/" 开头的路径表示安装包中 assets 目录下的文件，例如当前表示 assets/models/ocr_v2_for_cpu
+            config.modelPath = "models/ch_PP-OCRv2" // 不使用 "/" 开头的路径表示安装包中 assets 目录下的文件，例如当前表示 assets/models/ocr_v2_for_cpu
             //config.modelPath = "/sdcard/Android/data/com.equationl.paddleocr4android.app/files/models" // 使用 "/" 表示手机储存路径，测试时请将下载的三个模型放置于该目录下
             config.clsModelFileName = "cls" // cls 模型文件名
             config.detModelFileName = "det" // det 模型文件名

@@ -15,15 +15,3 @@
 local.properties
 /fastdeploydemo/src/main/assets/models/
 /fastDeployLib/build/
-.idea/compiler.xml
-.idea/deploymentTargetDropDown.xml
-.idea/gradle.xml
-.idea/misc.xml
-app/.idea/gradle.xml
-app/.idea/misc.xml
-app/.idea/modules.xml
-app/.idea/vcs.xml
-.idea/misc.xml
-.idea/gradle.xml
-.idea/deploymentTargetDropDown.xml
-.idea/compiler.xml
